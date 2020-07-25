@@ -27,8 +27,8 @@ class OauthTokenAuthenticator() : Authenticator {
         return SalesApi.retrofitService.getToken(
             "Basic c2llY29sYTptYXRpbGRl",
             "password",
-            "rodrigofrancodelima@gmail.com",
-            "rdgdm114"
+            "matilde@siecola.com.br",
+            "matilde"
         ).execute().body()!!
     }
 }
